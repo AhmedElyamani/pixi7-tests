@@ -1,0 +1,207 @@
+{
+  "frames": {
+    "7_of_clubs": {
+      "frame": {
+        "x": 3,
+        "y": 3,
+        "w": 500,
+        "h": 726
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 726
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 726
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "7_of_diamonds": {
+      "frame": {
+        "x": 3,
+        "y": 735,
+        "w": 500,
+        "h": 726
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 726
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 726
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "7_of_hearts": {
+      "frame": {
+        "x": 509,
+        "y": 3,
+        "w": 500,
+        "h": 726
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 726
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 726
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "7_of_spades": {
+      "frame": {
+        "x": 1015,
+        "y": 3,
+        "w": 500,
+        "h": 726
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 726
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 726
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "8_of_clubs": {
+      "frame": {
+        "x": 1521,
+        "y": 3,
+        "w": 500,
+        "h": 726
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 726
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 726
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "8_of_diamonds": {
+      "frame": {
+        "x": 509,
+        "y": 735,
+        "w": 500,
+        "h": 726
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 726
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 726
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "8_of_hearts": {
+      "frame": {
+        "x": 1015,
+        "y": 735,
+        "w": 500,
+        "h": 726
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 726
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 726
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "8_of_spades": {
+      "frame": {
+        "x": 1521,
+        "y": 735,
+        "w": 500,
+        "h": 726
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 726
+      },
+      "sourceSize": {
+        "w": 500,
+        "h": 726
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://github.com/odrick/free-tex-packer-core",
+    "version": "0.3.4",
+    "image": "playingCards-4.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2024,
+      "h": 1464
+    },
+    "scale": 1
+  }
+}

@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixi.js V7 Game Demo</title>
-    <style>
-        * {
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1,minimum-scale=1"><title>Pixi.js V7 Game Demo</title><style>* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -21,17 +14,32 @@
         #gameContainer {
             width: 100vw;
             height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            position: relative;
+            box-sizing: border-box;
+            overflow: hidden;
         }
         
         canvas {
             background: #111;
+            box-sizing: border-box;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            max-width: none !important;
+            max-height: none !important;
         }
-    </style>
-<script defer src="main.js"></script></head>
-<body>
-    <div id="gameContainer"></div>
-</body>
-</html>
+        
+        #debugInfo {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #00ff00;
+            padding: 10px;
+            font-family: monospace;
+            font-size: 12px;
+            z-index: 1000;
+            border: 1px solid #00ff00;
+            display: none;
+        }</style><script defer="defer" src="vendors.916ad3cdf2b5d823b9bc.js"></script><script defer="defer" src="main.69e6df7799b0a5ecc5c7.js"></script></head><body><div id="gameContainer"></div><div id="debugInfo"><div>Container: <span id="containerSize">-</span></div><div>Canvas Style: <span id="canvasStyleSize">-</span></div><div>Canvas Actual: <span id="canvasActualSize">-</span></div><div>Renderer (Virtual): <span id="rendererSize">-</span></div><div>Aspect Ratio: <span id="scaleInfo">-</span></div><div>Window: <span id="windowSize">-</span></div><div>Viewport: <span id="viewportSize">-</span></div></div></body></html>
