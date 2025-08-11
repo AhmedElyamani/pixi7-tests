@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Pixi.js V7 Game Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #000;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            touch-action: manipulation;
+        }
+        
+        #gameContainer {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        
+        canvas {
+            background: #111;
+            box-sizing: border-box;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            max-width: none !important;
+            max-height: none !important;
+        }
+        
+        #debugInfo {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #00ff00;
+            padding: 10px;
+            font-family: monospace;
+            font-size: 12px;
+            z-index: 1000;
+            border: 1px solid #00ff00;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameContainer"></div>
+    <div id="debugInfo">
+        <div>Container: <span id="containerSize">-</span></div>
+        <div>Canvas Style: <span id="canvasStyleSize">-</span></div>
+        <div>Canvas Actual: <span id="canvasActualSize">-</span></div>
+        <div>Renderer (Virtual): <span id="rendererSize">-</span></div>
+        <div>Aspect Ratio: <span id="scaleInfo">-</span></div>
+        <div>Window: <span id="windowSize">-</span></div>
+        <div>Viewport: <span id="viewportSize">-</span></div>
+    </div>
+</body>
+</html>

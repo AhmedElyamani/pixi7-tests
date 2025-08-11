@@ -1,0 +1,10 @@
+node_modules
+build
+dist
+serve
+*.min.js
+*.min.css
+package-lock.json
+*.md
+.git
+.DS_Store
